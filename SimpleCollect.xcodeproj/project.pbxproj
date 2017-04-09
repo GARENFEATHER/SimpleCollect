@@ -13,6 +13,9 @@
 		185DC17B1E94A470003D60C5 /* SimpleCollect.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 185DC1791E94A470003D60C5 /* SimpleCollect.xcdatamodeld */; };
 		185DC17D1E94A470003D60C5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 185DC17C1E94A470003D60C5 /* Assets.xcassets */; };
 		185DC1801E94A470003D60C5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 185DC17E1E94A470003D60C5 /* LaunchScreen.storyboard */; };
+		1884C5151E9993B100D9281D /* Friend.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1884C5141E9993B100D9281D /* Friend.swift */; };
+		1884C5171E99946800D9281D /* FriendTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1884C5161E99946800D9281D /* FriendTableViewCell.swift */; };
+		1884C5191E9994D400D9281D /* FriendTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1884C5181E9994D400D9281D /* FriendTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		185DC17C1E94A470003D60C5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		185DC17F1E94A470003D60C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		185DC1811E94A470003D60C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1884C5141E9993B100D9281D /* Friend.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Friend.swift; sourceTree = "<group>"; };
+		1884C5161E99946800D9281D /* FriendTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FriendTableViewCell.swift; sourceTree = "<group>"; };
+		1884C5181E9994D400D9281D /* FriendTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FriendTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +62,7 @@
 		185DC1711E94A470003D60C5 /* SimpleCollect */ = {
 			isa = PBXGroup;
 			children = (
+				1884C5141E9993B100D9281D /* Friend.swift */,
 				185DC1721E94A470003D60C5 /* AppDelegate.swift */,
 				185DC1741E94A470003D60C5 /* ViewController.swift */,
 				185DC1761E94A470003D60C5 /* Main.storyboard */,
@@ -63,6 +70,8 @@
 				185DC17E1E94A470003D60C5 /* LaunchScreen.storyboard */,
 				185DC1811E94A470003D60C5 /* Info.plist */,
 				185DC1791E94A470003D60C5 /* SimpleCollect.xcdatamodeld */,
+				1884C5161E99946800D9281D /* FriendTableViewCell.swift */,
+				1884C5181E9994D400D9281D /* FriendTableViewController.swift */,
 			);
 			path = SimpleCollect;
 			sourceTree = "<group>";
@@ -141,7 +150,10 @@
 			files = (
 				185DC1751E94A470003D60C5 /* ViewController.swift in Sources */,
 				185DC1731E94A470003D60C5 /* AppDelegate.swift in Sources */,
+				1884C5171E99946800D9281D /* FriendTableViewCell.swift in Sources */,
 				185DC17B1E94A470003D60C5 /* SimpleCollect.xcdatamodeld in Sources */,
+				1884C5151E9993B100D9281D /* Friend.swift in Sources */,
+				1884C5191E9994D400D9281D /* FriendTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -305,6 +317,7 @@
 				185DC1861E94A470003D60C5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
